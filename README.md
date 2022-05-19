@@ -159,7 +159,7 @@ Example of response:
 Format supported JSON. Example of valid payload:  
 
     {
-    "sensor_id": "1",
+    "id": "1",
     "temperature": "-5"
     }
 
@@ -170,7 +170,7 @@ Example of response:
     "status": "success",
     "data": [
         {
-        "sensor_id": "1",  
+        "id": "1",  
         "temperature": "-5",  
         "humidity": "50",  
         "wind_speed": "15",
