@@ -194,7 +194,7 @@ Example of response:
 
 ## DB Schema
 
-<img src="https://github.com/stefcruz/weather_api/blob/master/readme/dbschema.png">
+<img src="https://github.com/stefcruz/weather_sensors_api/blob/master/readme/dbschema.png">
 
 ## Tests
 
@@ -211,13 +211,13 @@ To run the tests on your local, follow the steps on [how to run this project loc
 `./manage.py test sensors.tests.GetSensorTestCase.test_get_request` # to run the test_get_request from the class GetSensorTestCase  
 
 All tests passed:  
-<img src="https://github.com/stefcruz/weather_api/blob/master/readme/test_passed.png">  
+<img src="https://github.com/stefcruz/weather_sensors_api/blob/master/readme/test_passed.png">  
 
 ## System Design
 
 The delete http request has not been created on this project.
 
-<img src="https://github.com/stefcruz/weather_api/blob/master/readme/system_design.png">
+<img src="https://github.com/stefcruz/weather_sensors_api/blob/master/readme/system_design.png">
 
 ## How to run this project locally
 
@@ -239,10 +239,10 @@ The delete http request has not been created on this project.
 - There is an issue with sensor data showing multiple times for each sensor. The average metrics are returned correctly (calculated in the DB) however it displays all the sensor_data entries in the database. Ideally it should only display one set of data for each sensor.  
 
 Current behaviour:  
-<img src="https://github.com/stefcruz/weather_api/blob/master/readme/current-behaviour-1.png">
+<img src="https://github.com/stefcruz/weather_sensors_api/blob/master/readme/current-behaviour-1.png">
 
 Expected behaviour:  
-<img src="https://github.com/stefcruz/weather_api/blob/master/readme/expected-behaviour-1.png">
+<img src="https://github.com/stefcruz/weather_sensors_api/blob/master/readme/expected-behaviour-1.png">
 
 ## Features left to implement
 
